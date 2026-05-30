@@ -15,6 +15,7 @@ namespace InventoryMnagement
         public HomeForm()
         {
             InitializeComponent();
+            FormScaler.ScaleForm(this);
         }
 
         private void closeButton_Click(object sender, EventArgs e)
