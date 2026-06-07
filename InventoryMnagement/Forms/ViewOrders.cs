@@ -16,9 +16,10 @@ namespace InventoryMnagement
         public ViewOrders()
         {
             InitializeComponent();
+            FormScaler.ScaleForm(this);
         }
 
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\senud\Desktop\practise division\InventoryMnagement\InventoryMnagement\inventorydb.mdf"";Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=inventorydb;Integrated Security=True;TrustServerCertificate=True");
         private void button4_Click(object sender, EventArgs e)
         {
             Application.Exit();

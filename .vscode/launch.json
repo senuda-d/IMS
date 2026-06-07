@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (Debug)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/InventoryMnagement/bin/Debug/net8.0-windows/InventoryMnagement.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/InventoryMnagement",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}

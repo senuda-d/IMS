@@ -12,7 +12,7 @@ namespace InventoryMnagement
     {
         static void Main(string[] args)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\senud\Desktop\practise division\InventoryMnagement\InventoryMnagement\inventorydb.mdf"";Integrated Security=True;Connect Timeout=30");
+            SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=inventorydb;Integrated Security=True;TrustServerCertificate=True");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 

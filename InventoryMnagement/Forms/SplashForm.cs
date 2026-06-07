@@ -15,6 +15,7 @@ namespace InventoryMnagement
         public SplashForm()
         {
             InitializeComponent();
+            FormScaler.ScaleForm(this);
         }
         int startpoint = 0;
         private void timer1_Tick(object sender, EventArgs e)

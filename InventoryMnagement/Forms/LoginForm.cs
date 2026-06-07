@@ -16,9 +16,10 @@ namespace InventoryMnagement
         public LoginForm()
         {
             InitializeComponent();
+            FormScaler.ScaleForm(this);
         }
 
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\senud\Desktop\practise division\InventoryMnagement\InventoryMnagement\inventorydb.mdf"";Integrated Security=True;");
+        SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=inventorydb;Integrated Security=True;TrustServerCertificate=True");
 
         private void pswdshow_Click(object sender, EventArgs e)
         {
